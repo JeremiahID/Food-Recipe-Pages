@@ -33,7 +33,7 @@ height: 100%;
 width: 50%;
 float: left;
 background-color: rgb(20, 18, 18);
-opacity: 90%;
+opacity: 80%;
 }
 /* Account svg*/
 .Account > svg{
@@ -74,6 +74,11 @@ button p{
     float: right;
     padding-right: 40px;
     padding-top: 4px;
+}
+
+button p a{
+    text-decoration: none;
+    color: white;
 }
 button:hover{
     background-color: transparent;

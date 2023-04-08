@@ -88,7 +88,16 @@ font-weight: 700;
 cursor: pointer;
 
 }
+form button a{
+    text-decoration: none;
+    color: rgba(255, 114, 62, 0.726);
+}
 
+form button:hover{
+    border: 1px solid rgba(255, 114, 62, 0.726);
+    color: rgba(255, 114, 62, 0.726);
+    background-color: transparent;
+}
 
 /* Right container styling*/
 .rightContainer{

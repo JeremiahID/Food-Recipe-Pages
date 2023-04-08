@@ -74,7 +74,7 @@ input[type="text"], input[type="email"], input[type="password"]{
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
-    padding-left: 5px;
+    padding-left: 0px;
     font-size: 13px;
     font-weight: 600;
     width: 150px;
@@ -88,13 +88,6 @@ button:hover{
     color:goldenrod;
     
 }
-@media screen {
-    max-width: ;
-    
-    
-}
-
-
 
 
 .rightSide{
@@ -121,4 +114,10 @@ button[type="submit"]:hover{
     border: 2px solid  goldenrod;
     background-color: transparent;
     box-shadow: none;
+}
+
+button[type="submit"] a{
+    text-decoration: none;
+    color: whitesmoke;
+
 }
