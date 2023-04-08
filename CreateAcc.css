@@ -78,7 +78,7 @@ button p{
 
 button p a{
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
 button:hover{
     background-color: transparent;
