@@ -122,7 +122,7 @@ button[type="submit"] a{
 
 }
 
-@media screen and (max-width:660px){
+@media screen and (max-width:630px){
 
     *{
     padding: 0px;
@@ -132,7 +132,7 @@ button[type="submit"] a{
 
 html, body{
     width: 620px;
-    height: auto;
+    height: 1290px;
     background-image: url("sign-in-background.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -141,13 +141,13 @@ html, body{
 }
 
 .Cover{
-    width: 620px;
-    height: auto;
+    width: 630px;
+    height: 1290px;
     background-color: rgba(0, 0, 0, 0.795);
 }
 
 .Cover > svg, h1, p, button{
-    margin-left: 170px;
+    margin-left: 50px;
 }
 
 .Cover > svg{
@@ -157,7 +157,7 @@ html, body{
 .Cover > h1 {
     color: white;
     padding-top: 30px;
-    font-size: 60px;
+    font-size: 100px;
     font-family: calibri;
     word-spacing: 1px;
     letter-spacing: 1px;
@@ -178,7 +178,7 @@ p > a{
 .Cover > button {
     background-color:  rgba(20, 18, 18, 0.61);
     border: 0px;
-    margin-top: 20px;
+    margin-top: 80px;
     border-radius:12px;
     color: rgba(255, 255, 255, 0.596);
     width: 250px;
@@ -224,6 +224,7 @@ button:hover{
     float: right;
 }
 button[type="submit"]{
+    display: inline;
     background-color: rgba(20, 18, 18, 0.897);
     color: white;
     text-align: center;
