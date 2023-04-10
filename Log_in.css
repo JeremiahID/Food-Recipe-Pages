@@ -103,7 +103,6 @@ form button:hover{
 .rightContainer{
     height: 100%;
     width: 50%;
-    background-color:;
     display: inline;
 }
 
@@ -114,4 +113,128 @@ form button:hover{
     margin-left: 20px;
     margin-top: 45px;
     
+}
+
+@media screen and (max-width:630px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+        box-sizing: border-box;
+    
+    }
+    
+    html, body{
+        width: 630px;
+        height: 1290px;
+        display: inline-block;
+    }
+    
+    /* Left container styling*/
+    .leftContainer{
+        height: 700px;
+        width: 630px;
+        background-color: rgb(241, 241, 241);
+    }
+    /* general margin for the Left hand side container */
+    .leftContainer >  h1, form{
+    margin-left: 150px ;
+    font-family: calibri;
+    }
+
+    .leftContainer >  h1{
+        font-family: gabriola;
+        font-weight: 900;
+        font-size: 50px;
+    }
+    
+    
+    /* Left container image styling*/
+    .leftContainer > img{
+        width: 150px;
+        height: 150px;
+        margin-top: 50px;
+        margin-left: 250px;
+    
+    }
+    
+    /* Left container paragraph styling*/
+    .leftContainer > p{    
+    padding-top: 10px;
+    margin-left: 150px;
+    font-family: calibri;
+    }
+    /* Left container form styling*/
+    form{
+        margin-top: 40px;
+        font-weight: 100;
+    
+    }
+    /* Left container form input styling*/
+    form > input{
+        width: 360px;
+        height: 40px;
+        padding-left: 10px;
+        border: 1px solid rgba(255, 114, 62, 0.726);
+        background-color: rgba(255, 255, 255, 0.774);
+    
+    }
+    
+    /* Left container form link styling*/
+    
+    form > a{
+        text-decoration: none;
+        color: rgba(255, 114, 62, 0.726);
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    /* Left container form paragraph styling*/
+    
+    form > p{
+        margin-left :50px;
+        font-size: 20px;
+         font-weight: 200;
+         padding-top: 10px;
+         font-family: calibri;
+    }
+    
+    
+    /* Left container form button styling*/
+    form > button{
+    margin-top: 10px;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    height: 40px;
+    width: 260px;
+    color: white;
+    background-color: rgba(255, 114, 62, 0.726);
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 50px;
+    
+    }
+    form button a{
+        text-decoration: none;
+        color: rgba(255, 114, 62, 0.726);
+    }
+    
+    form button:hover{
+        border: 1px solid rgba(255, 114, 62, 0.726);
+        color: rgba(255, 114, 62, 0.726);
+        background-color: transparent;
+    }
+    
+    /* Right container styling*/
+    .rightContainer{
+        height: 390px;
+        width:630px ;
+    }
+    
+    .rightContainer> img{
+        width: 150px;
+        height: 150px;
+        margin-left: 40px;
+        margin-top: 30px;
+        
+    }
 }
