@@ -121,3 +121,131 @@ button[type="submit"] a{
     color: whitesmoke;
 
 }
+
+@media screen and (max-width:600px) {
+
+    *{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-image: url("sign-in-background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.Cover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.795);;
+}
+
+.Cover > svg, h1, p, button{
+    margin-left: 170px;
+}
+
+.Cover > svg{
+    margin-top: 60px;
+}
+
+.Cover > h1 {
+    color: white;
+    padding-top: 30px;
+    font-size: 60px;
+    font-family: calibri;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+.Cover > p {
+    color: rgba(255, 255, 255, 0.527);
+    padding-top: 10px;
+    font-family: calibri;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+p > a{
+    color: rgba(255, 123, 0, 0.815);
+    text-decoration: none;
+}
+
+.Cover > button {
+    background-color:  rgba(20, 18, 18, 0.61);
+    border: 0px;
+    margin-top: 20px;
+    border-radius:12px;
+    color: rgba(255, 255, 255, 0.596);
+    width: 250px;
+    height: 50px;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
+  
+}
+input[type="text"], input[type="email"], input[type="password"]{
+    background-color:  transparent;
+    color: white;
+    border:1px solid goldenrod;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-left: 0px;
+    font-size: 13px;
+    font-weight: 600;
+    width: 150px;
+    height: 15px;
+    margin-top: 3px;
+          
+}
+
+button:hover{
+    box-shadow: -1px -1px 1px 1px goldenrod;
+    color:goldenrod;
+    
+}
+
+
+.rightSide{
+    float: left;
+}
+.leftSide{
+    margin-right: 15px;
+    float: right;
+}
+button[type="submit"]{
+    background-color: rgba(20, 18, 18, 0.897);
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    padding-left: 0px;
+    font-size: 13px;
+    font-weight: 600;
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+button[type="submit"]:hover{
+    border: 2px solid  goldenrod;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+button[type="submit"] a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+}
