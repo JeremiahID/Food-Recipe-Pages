@@ -115,6 +115,7 @@ form button:hover{
     
 }
 
+
 @media screen and (max-width:630px) {
     *{
         padding: 0px;
@@ -226,7 +227,7 @@ form button:hover{
     
     /* Right container styling*/
     .rightContainer{
-        height: 390px;
+        height: 592px;
         width:630px ;
     }
     
@@ -234,7 +235,7 @@ form button:hover{
         width: 150px;
         height: 150px;
         margin-left: 40px;
-        margin-top: 30px;
+        margin-top: 50px;
         
     }
 }
