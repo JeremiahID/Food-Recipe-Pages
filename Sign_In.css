@@ -131,7 +131,7 @@ button[type="submit"] a{
 }
 
 html, body{
-    width: 620px;
+    width: 630px;
     height: 1290px;
     background-image: url("sign-in-background.jpg");
     background-attachment: fixed;

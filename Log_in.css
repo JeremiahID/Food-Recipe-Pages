@@ -9,7 +9,7 @@
 html, body{
     width: 100%;
     height: 100%;
-        display: flex;
+    display: flex;
 }
 
 /* Left container styling*/
@@ -128,14 +128,15 @@ form button:hover{
     html, body{
         width: 630px;
         height: 1290px;
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
     }
     
     /* Left container styling*/
     .leftContainer{
-        height: 700px;
+        height: 800px;
         width: 630px;
-        background-color: rgb(241, 241, 241);
+        background-color: rgb(212, 200, 200);
     }
     /* general margin for the Left hand side container */
     .leftContainer >  h1, form{
