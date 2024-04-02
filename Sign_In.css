@@ -62,10 +62,9 @@ p > a{
     padding-left: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
-    
-
   
 }
+
 input[type="text"], input[type="email"], input[type="password"]{
     background-color:  transparent;
     color: white;
